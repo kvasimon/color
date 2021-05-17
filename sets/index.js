@@ -8,7 +8,12 @@ import purples from './purples'
 import reds from './reds'
 import skilnad from './skilnad'
 
-export default [
+export const categories = {
+  basics: ['blues', 'greens', 'oranges', 'purples', 'reds'],
+  galaxy: ['blues', 'greens', 'oranges', 'purples', 'reds', 'skilnad'],
+}
+
+export const colorSets = [
   blues,
   bygdepride,
   greens,

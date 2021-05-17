@@ -1,4 +1,12 @@
-import colorSets from './sets/index'
+import { colorSets, categories } from './sets/index'
+
+function getCategory(name) {
+  try {
+    return categories[name]
+  } catch(_) {
+    return null
+  }
+}
 
 function getSet(name) {
   const colorSet = colorSets.find(s => s.name == name)
@@ -26,7 +34,14 @@ function getRandomColors(selection) {
   return colorSets[Math.floor(Math.random() * colorSets.length)].colors
 }
 
+function getRandomColorsFromCategory(category) {
+  const selected = getCategory(category)
+  return getRandomColors(selected)
+}
+
 export {
   getColors,
+  getCategory,
   getRandomColors,
+  getRandomColorsFromCategory,
 }
