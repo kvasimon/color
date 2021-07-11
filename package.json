@@ -2,7 +2,7 @@
   "name": "@nokonoko/colors",
   "version": "0.3.0",
   "description": "",
-  "author": "Simon Dagfinrud <hi@kvasimon.co>",
+  "author": "Simon Dagfinrud <simon@nokonoko.co>",
   "main": "dist/index.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kvasimon/colors.git"
+    "url": "git+https://github.com/studionoko/colors.git"
   },
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
@@ -20,7 +20,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kvasimon/colors/issues"
+    "url": "https://github.com/studionoko/colors/issues"
   },
   "devDependencies": {
     "rollup": "^2.47.0"
