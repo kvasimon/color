@@ -1,7 +1,7 @@
 {
   "name": "@studionoko/colors",
   "version": "0.3.1",
-  "description": "",
+  "description": "Collection of handy sets of colors and color helper tools.",
   "author": "Simon Dagfinrud <simon@nokonoko.co>",
   "main": "dist/index.cjs.js",
   "scripts": {
